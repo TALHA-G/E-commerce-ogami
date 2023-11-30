@@ -44,14 +44,14 @@ const Footer = () => {
         </div>
     </div>
 
-    <div className='flex justify-evenly py-14 mt-3 bg-[#88c76a]'>
+    <div className='flex justify-evenly py-14 mt-3 bg-[#a1df84]'>
         <div className='text-[#fff] flex flex-col gap-2'>
             <h2 className='text-2xl'>Join Our Newsletter Now</h2>
             <p className='text-md'>Get E-mail updates about our latest shop and special offers.</p>
         </div>
-        <div className='w-[40vw] flex'>
-         <input type="email" id="" placeholder='Enter your email' className='w-[100%] text-md font-medium text-[#fff] bg-[#9cc08b] rounded-[30px] px-6 py-1' />
-         <button className='relative left-[-23%] rounded-[30px] text-[#88c76a] text-lg bg-[#fff] px-9 py-1'>Subscribe</button>
+        <div className='w-[35vw] h-[8vh] flex justify-between'>
+         <input type="email" placeholder="Enter your email" className='w-[100%] text-md font-medium rounded-[30px] px-8 placeholder-[#fff] border-hidden bg-[#a5d470]'/>
+         <button className='relative left-[-21%] font-semibold rounded-e-[30px] text-[#88c76a] text-lg bg-[#fff] px-5'>Subscribe</button>
         </div>
     </div>
     <div className='flex justify-around p-4'>
