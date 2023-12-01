@@ -93,7 +93,10 @@
   color: #F2F2F2;
 }
 
-
+.ani{
+  transition: 3s ease;
+  transition-delay: 0s;
+}
  
   
   
