@@ -45,7 +45,7 @@ const Footer = () => {
     </div>
 
     <div className='flex justify-evenly py-14 mt-3 bg-[#a1df84]'>
-        <div className='text-[#fff] flex flex-col gap-2'>
+        <div className='text-[#fffbfb] flex flex-col gap-2'>
             <h2 className='text-2xl'>Join Our Newsletter Now</h2>
             <p className='text-md'>Get E-mail updates about our latest shop and special offers.</p>
         </div>
