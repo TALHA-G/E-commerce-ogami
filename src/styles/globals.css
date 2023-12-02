@@ -98,7 +98,21 @@
   transition-delay: 0s;
 }
  
+ .active{
+  color: #88c76a;
+ } 
   
+.hov:hover{
+ color: #88c76a;
+ cursor: pointer;
+} 
+
+.line{
+  display: flex;
+  margin-top: 20px;
+  border: 2px solid #88c76a;
+  width: 100px;
+}
   
   
   
