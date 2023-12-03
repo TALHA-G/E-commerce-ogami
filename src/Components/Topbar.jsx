@@ -15,7 +15,7 @@ const Topbar = () => {
                  <i class="fa-solid fa-phone text-lg"></i>
                 +923075438639</div>
         </div>
-           <div className='flex gap-4'>
+           <div className='flex items-center gap-20'>
                <div >
                  <ul className='flex gap-4'>
                     <i class="fa-brands fa-facebook-f text-lg"></i>
@@ -23,9 +23,10 @@ const Topbar = () => {
                     <i class="fa-brands fa-linkedin fa-shake text-lg"></i>
                     <i class="fa-brands fa-pinterest-p text-lg"></i>
                  </ul>
-              </div>
+               </div>
+
                <Link  href="/login">
-              <div className='text-sm flex gap-2 pl-12'>
+              <div className='text-sm flex gap-2 px-5 py-2 bg-[#88c76a] rounded-3xl'>
                   <i class="fa-solid fa-user text-lg flex gap-2"></i>
                   <span className='text-lg'>Login</span>
               </div>

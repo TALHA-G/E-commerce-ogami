@@ -208,8 +208,7 @@ const index = () => {
              <img src="Images\lg1.png" alt="" />
           </div>
        </div>
-             {/* Side arrow */}
-       <div class="arrow"><Link href={'/'}><i class="fa-solid fa-arrow-up"></i></Link></div>
+             
         
      </>
   )
