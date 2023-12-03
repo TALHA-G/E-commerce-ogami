@@ -93,6 +93,10 @@
   color: #F2F2F2;
 }
 
+.arrow:hover{
+  background-color: #3e9217;
+}
+
 .ani{
   transition: 3s ease;
   transition-delay: 0s;
