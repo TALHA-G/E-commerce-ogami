@@ -32,6 +32,7 @@ const Navbar = () => {
                     <div>
                       <li><Link className='py-1 px-6  text-xl text-lime-500 font-semibold' href={v.href}>{v.lable}</Link></li>
                     </div>
+                     
 
                   </>
 
