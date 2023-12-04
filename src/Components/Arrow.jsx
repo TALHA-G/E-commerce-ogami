@@ -5,7 +5,7 @@ const arrow = () => {
   return (
     <>
     {/* Side arrow */}
-    <div class="arrow"><Link href={'#'}><i class="fa-solid fa-arrow-up"></i></Link></div>
+      <Link href={'#'}><div class="arrow"><i class="fa-solid fa-arrow-up"></i></div></Link>
     </>
   )
 }
