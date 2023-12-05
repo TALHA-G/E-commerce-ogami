@@ -6,6 +6,7 @@ const shop = () => {
 
 const [def, setDef] = useState(false);
 const [item, setItem] = useState(false);
+const [shop, setShop] = useState(false);
 
 
 const cards = [
@@ -41,21 +42,31 @@ items: [
 
   return (
     <>
-    <div className='w-[100%] h-[150vh]'>
+      <div className='flex justify-start mb-5 px-52 gap-2 items-center text-base text-gray-400 font-medium'>
+          <i class="fa-solid fa-house-chimney"></i>
+          <h2>Home</h2>
+          <i class="fa-solid fa-angle-right fa-sm pt-1"></i>
+          <h2 className='active'>Shop</h2>
+      </div>
+      <div className='shop p-10 h-[85vh] flex justify-center'>
+        <div data-aos="fade-up" className='flex flex-col justify-center items-center gap-8'>
+          <img data-aos="fade-up" src="Images/Welcome.png" alt="" />
+          <Link href={'#shop'}>
+          <button onClick={() => setShop(!shop)} data-aos-delay="0.3" data-aos="fade-up" className='rounded-xl bg-[#f79823] px-6 py-2'> Shop now</button>
+          </Link>
+        </div>
+      </div>
 
-    <div className='flex justify-start px-52 gap-2 items-center text-base text-gray-400 font-medium'>
-      <i class="fa-solid fa-house-chimney"></i>
-      <h2>Home</h2>
-      <i class="fa-solid fa-angle-right fa-sm pt-1"></i>
-      <h2 className='active'>Shop</h2>
-    </div>
+    {shop&&(
+
+    <div id='shop' className='w-[100%] h-[150vh] pt-16'>
 
     <div className='flex justify-evenly items-center gap-12 px-52 py-2'>
         <div className='w-[20vw] h-[150vh]'>
           <h2 className='text-2xl font-bold text-black'>Departments <span className='line'></span><hr /></h2>
           <div className='text-lg p-2 text-gray-500 leading-[2.5rem] h-[40vh]'>
             <ul>
-              <li>All Departments</li>
+              <li className='active'>All Departments</li>
               <li>Fresh Food</li>
               <li>Fresh Fruits</li>
               <li>Vegetables</li>
@@ -132,10 +143,10 @@ items: [
                     return(
                       <>
                     <div className='border max-h-[40vh] leading-normal flex flex-col justify-center items-center px-4 py-6 hover'>
-                     <img className='w-[160px] h-[140px]' src={items.img} alt="img" />
-                     <span className='p-3 text-[#88c74a]'>{v.title}</span>
-                     <h2 className='text-xl p-1'>{items.head}</h2>
-                     <span className='text-xl'>{items.pri}</span>
+                        <img className='w-[160px] h-[140px]' src={items.img} alt="img" />
+                        <span className='p-3 text-[#88c74a]'>{items.title}</span>
+                        <h2 className='text-xl p-1'>{items.head}</h2>
+                        <span className='text-xl'>{items.pri}</span>
                     </div>
                    </>
                     )
@@ -166,6 +177,7 @@ items: [
         <li className='hover:text-[#88c76a] hover:bg-slate-100 px-4'><Link href={'#'}>Show 20</Link></li>
      </ul>
     </div>
+    )}
        
         
     </>

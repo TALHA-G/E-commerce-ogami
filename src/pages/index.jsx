@@ -48,7 +48,38 @@ const index = () => {
         </div>
       </div>
     </div>
-
+     <div className='del-time p-10 h-[80vh]'>
+         <div className='text-5xl text-[#fff] text-center font-bold'>
+           <h2>Delivery Process</h2>
+           <span className='block m-auto w-[80px] h-1 mt-6 bg-[#f79823]'></span>
+         </div>
+         <div className='flex justify-center items-center gap-20 mt-28 relative'>
+            <div className='relative flex flex-col justify-center items-center gap-2'>
+              <img src="Images/step-1.png" alt="" />
+               <h2 className='text-[#f79823] text-lg font-medium'>Step 1</h2>
+               <p className='text-[#fff] text-lg font-medium'>Choose Your products</p>
+                <div className='arr'></div>
+            </div>
+            <div className='flex flex-col justify-center items-center gap-2'>
+              <img src="Images/step-2.png" alt="" />
+               <h2 className='text-[#f79823] text-lg font-medium'>Step 2</h2>
+               <p className='text-[#fff] text-lg font-medium'>Connect Nearest Farm</p>
+               <div className='arr'></div>
+            </div>
+            <div className='flex flex-col justify-center items-center gap-2'>
+              <img src="Images/step-3.png" alt="" />
+               <h2 className='text-[#f79823] text-lg font-medium'>Step 3</h2>
+               <p className='text-[#fff] text-lg font-medium'>Share Your Location</p>
+               <div className='arr'></div>
+            </div>
+            <div className='flex flex-col justify-center items-center gap-2'>
+              <img src="Images/step-4.png" alt="" />
+               <h2 className='text-[#f79823] text-lg font-medium'>Step 4</h2>
+               <p className='text-[#fff] text-lg font-medium'>Get Delivered Fast</p>
+               
+            </div>
+         </div>
+     </div>
 
     <div className='flex justify-center gap-5 items-centers m-10'>
       <div className='border-2 border-[#88c74a] text-center px-20 py-14'>

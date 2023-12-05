@@ -171,12 +171,40 @@
   z-index: 999;
 }
 
-/* .far:hover{
- background-color: rgb(70, 68, 68);
- background-clip: content-box;
- background-attachment: fixed;
+.far:hover .trans{
+position: absolute;
+top:0;
+left: 0;
+}
+.trans{
+  transition: 0.2s ease-in-out ;
+  font-size:large;
+}
+.btn{
+  transform: translate(-50%, -50%);
+}
+.shop{
+  background-image: url('../../public/Images/shop.png') ;
+  background-attachment: fixed;
+  background-position: center;
+}
 
-} */
+.del-time{
+  background-image: url('../../public/Images/bl.png') ;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.arr{
+  content: '';
+  width: 12rem;
+  height: 2rem;
+ background-image: url('../../public/Images/arrow.png');
+ position: absolute;
+ top: 10;
+ left: 70px;
+}
+
   
  
   

@@ -1,5 +1,5 @@
 import React from 'react'
-// import Link from 'next/link'
+import Link from 'next/link'
 
 const about = () => {
 
@@ -21,18 +21,23 @@ const about = () => {
             <h2 className='text-4xl font-bold text-black'>The Story About Us <span className='line'></span><hr /></h2>
         </div>
 
-        <div className='flex justify-evenly gap-16 py-4'>
+      <div className='flex justify-evenly gap-16 py-4'>
           <div className='flex flex-col justify-evenly leading-loose text-lg text-gray-500 font-medium'>
             <p>Tyna Giang's integrated agro-forestry farming model is the first project in Vietnam to achieve the highest ranking in the "100 projects to combat climate change" by the Ministry of Environment, Energy and Sea. France organized in 2016 ...</p>
 
             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Neque porro quisquam est, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam   aliquam quaerat voluptatem</p>
           </div>
            
-          <div className='w-[30vw]'>
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/XMcab1MFaLc?si=DtLWGvtz3LCtPFrB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div className='w-[90vw] relative'>
+            <Link href={'https://www.youtube.com/embed/XMcab1MFaLc?si=DtLWGvtz3LCtPFrB'}>
+               <div className='w-[100%]'><img src="Images/video.png" alt="logo" /></div>
+               <div className='absolute left-[50%] top-[50%] bg-[#fff] rounded-[50%] px-6 py-5 btn'>
+                 <i class="fa-solid fa-play fa-xl text-[#88c76a]"></i>
+               </div>
+            </Link>
           </div>
-        </div>
-
+      </div>
+      
         <div className='flex justify-center items-center py-16'>
             <div className='border w-[80vw] flex justify-evenly items-center px-8 py-12 text-xl text-[#222521]'>
                 <div className='flex justify-between items-center gap-6'>
@@ -114,27 +119,65 @@ const about = () => {
             <div className='w-[100%] h-[100vh] relative top-[70vh]'>
                 <div className='p-2 mb-6 flex justify-center'>
                    <h2 className='text-4xl font-bold text-black'>We are farmers<span className='line'></span></h2>
-                 </div>
+                </div>
 
-                 <div className='flex justify-evenly items-center gap-4'>
+                <div className='flex justify-evenly items-center gap-4'>
 
+                  <div className='far1 far relative overflow-hidden'>
+                    <div className='absolute top-[-100%] left-[-100%] bg-[rgba(0,0,0,.6)] font-sans h-[100%] w-[100%] flex flex-col justify-center items-center gap-4 trans'>
+                       <h2>Katie Harrison</h2>
+                       <span>Barber</span>
+                         <ul className='flex gap-4'>
+                            <i class="fa-brands fa-facebook-f text-lg"></i>
+                            <i class="fa-brands fa-twitter text-lg"></i>
+                            <i class="fa-brands fa-linkedin fa-shake text-lg"></i>
+                            <i class="fa-brands fa-pinterest-p text-lg"></i>
+                         </ul>
+                      </div>
+                  </div>
+
+                  <div className='far2 far relative overflow-hidden'>
+                    <div className='absolute top-[-100%] left-[-100%] bg-[rgba(0,0,0,.6)] font-sans h-[100%] w-[100%] flex flex-col justify-center items-center gap-4 trans'>
+                       <h2>Katie perry</h2>
+                       <span>Workers Incharge</span>
+                         <ul className='flex gap-4'>
+                            <i class="fa-brands fa-facebook-f text-lg"></i>
+                            <i class="fa-brands fa-twitter text-lg"></i>
+                            <i class="fa-brands fa-linkedin fa-shake text-lg"></i>
+                            <i class="fa-brands fa-pinterest-p text-lg"></i>
+                         </ul>
+                      </div>
+                  </div>
+
+                  <div className='far3 far relative overflow-hidden'>
+                    <div className='absolute top-[-100%] left-[-100%] bg-[rgba(0,0,0,.6)] font-sans h-[100%] w-[100%] flex flex-col justify-center items-center gap-4 trans'>
+                       <h2>John Harisson</h2>
+                       <span>Security Incharge</span>
+                         <ul className='flex gap-4'>
+                            <i class="fa-brands fa-facebook-f text-lg"></i>
+                            <i class="fa-brands fa-twitter text-lg"></i>
+                            <i class="fa-brands fa-linkedin fa-shake text-lg"></i>
+                            <i class="fa-brands fa-pinterest-p text-lg"></i>
+                         </ul>
+                      </div>
+                  </div>
+
+                  <div className='far4 far relative overflow-hidden'>
+                    <div className='absolute top-[-100%] left-[-100%] bg-[rgba(0,0,0,.6)] font-sans h-[100%] w-[100%] flex flex-col justify-center items-center gap-4 trans'>
+                       <h2>Max Rashford</h2>
+                       <span>Barber</span>
+                         <ul className='flex gap-4'>
+                            <i class="fa-brands fa-facebook-f text-lg"></i>
+                            <i class="fa-brands fa-twitter text-lg"></i>
+                            <i class="fa-brands fa-linkedin fa-shake text-lg"></i>
+                            <i class="fa-brands fa-pinterest-p text-lg"></i>
+                         </ul>
+                      </div>
+                  </div>
                    
-                   <div className='far1 far'>
-                    <h2>Katie Harrison</h2>
-                    <span>Barber</span>
-                    <div>
-                      <ul className='flex gap-4'>
-                         <i class="fa-brands fa-facebook-f text-lg"></i>
-                         <i class="fa-brands fa-twitter text-lg"></i>
-                         <i class="fa-brands fa-linkedin fa-shake text-lg"></i>
-                         <i class="fa-brands fa-pinterest-p text-lg"></i>
-                      </ul>
-                    </div>
-                   </div>
+                      
                    
-                   <div className='far2 far'></div>
-                   <div className='far3 far'></div>
-                   <div className='far4 far'></div>
+                   
                  </div>
             </div>
 
