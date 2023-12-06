@@ -58,25 +58,27 @@ const index = () => {
               <img src="Images/step-1.png" alt="" />
                <h2 className='text-[#f79823] text-lg font-medium'>Step 1</h2>
                <p className='text-[#fff] text-lg font-medium'>Choose Your products</p>
-                <div className='arr'></div>
+              <div className='arr'></div>
             </div>
-            <div className='flex flex-col justify-center items-center gap-2'>
+
+            <div className='relative flex flex-col justify-center items-center gap-2'>
               <img src="Images/step-2.png" alt="" />
                <h2 className='text-[#f79823] text-lg font-medium'>Step 2</h2>
                <p className='text-[#fff] text-lg font-medium'>Connect Nearest Farm</p>
                <div className='arr'></div>
             </div>
-            <div className='flex flex-col justify-center items-center gap-2'>
+
+            <div className='relative flex flex-col justify-center items-center gap-2'>
               <img src="Images/step-3.png" alt="" />
                <h2 className='text-[#f79823] text-lg font-medium'>Step 3</h2>
                <p className='text-[#fff] text-lg font-medium'>Share Your Location</p>
                <div className='arr'></div>
             </div>
+               
             <div className='flex flex-col justify-center items-center gap-2'>
               <img src="Images/step-4.png" alt="" />
                <h2 className='text-[#f79823] text-lg font-medium'>Step 4</h2>
                <p className='text-[#fff] text-lg font-medium'>Get Delivered Fast</p>
-               
             </div>
          </div>
      </div>
