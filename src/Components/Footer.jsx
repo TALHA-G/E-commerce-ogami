@@ -6,7 +6,7 @@ const Footer = () => {
     <>
     <div className='flex justify-evenly items-center leading-[40px] p-4'>
         <div className='text center'>
-           <img className='w-36 p-4 mb-6' src="Images/logo.png" alt="logo" />
+           <img className='w-36 p-4 mb-6' src="Images/mlogo.png" alt="logo" />
            <p className='text-md text-gray-500 font-bold'>Address: 60-49 Road 11378 New York</p>
            <p className='text-md text-gray-500 font-bold'>Phone: +65 11.188.888</p>
            <p className='text-md text-gray-500 font-bold'>Email: info.deercreative@gmail.com</p>

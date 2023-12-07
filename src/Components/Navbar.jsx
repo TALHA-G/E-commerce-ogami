@@ -16,30 +16,39 @@ const Navbar = () => {
   ]
   return (
     <>
-      <div>
-        <nav className='max-w-4xl ml-32 pl-8 flex items-center justify-around'>
+      <div className='bg-[rgba(0,0,0,.72)] flex justify-around items-center mb-[2rem]'>
+        <nav className='w-[73%] flex items-center justify-between'>
           <div>
             <Link href={'/'}>
-              <img className='w-36 p-4' src="Images/logo.png" alt="logo" />
+               <img className='w-36 p-4' src="Images/logo.png" alt="" />
             </Link>
           </div>
-
-          <ul className='flex gap-4'>
+             
+          <ul className='flex gap-4 relative'>
             {
               navlinks.map((v, i) => {
+                   
                 return (
                   <>
-                    <div>
-                      <li><Link className='py-1 px-6  text-xl text-lime-500 font-semibold' href={v.href}>{v.lable}</Link></li>
-                    </div>
-                     
-
+                      <li><Link className='py-1 px-6  text-xl text-[#fff] font-semibold' href={v.href}>{v.lable}</Link></li>
+                      
                   </>
 
                 )
               })
             }
-          </ul>
+                <div className='hov border-2'>
+                      <div className='text-center leading-[2.5rem] drop'>
+                        <ul>
+                          <li>Login</li>
+                          <li>Register</li>
+                          <li>FAQ's</li>
+                          <li>Contact Us</li>
+                        </ul>
+                      </div>
+                </div>
+              </ul>
+         
         </nav>
       </div>
 

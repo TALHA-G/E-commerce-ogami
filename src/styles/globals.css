@@ -103,13 +103,34 @@
 }
  
  .active{
-  color: #88c76a;
+  color: #88c76a !important;
  } 
-  
+ 
 .hov:hover{
  color: #88c76a;
  cursor: pointer;
 } 
+
+.hov:hover .drop {
+ 
+  position: absolute;
+  opacity: 1;
+}
+
+.drop{
+  box-shadow: 2px 2px 4px rgb(180, 178, 178);
+  opacity: 0;
+  position: absolute;
+  background-color: #fff;
+  color: slategrey;
+  font-size: 20px;
+  width: 12vw;
+  padding: 1rem;
+  top: 3.25rem;
+  right: 17%;
+}
+
+  
 
 .line{
   display: flex;
@@ -180,7 +201,7 @@ left: 0;
   transition: 0.2s ease-in-out ;
   font-size:large;
 }
-.btn{
+.bton{
   transform: translate(-50%, -50%);
 }
 .shop{
@@ -204,7 +225,16 @@ left: 0;
  top: 0;
  left: 65%;
 }
-  
+
+.day{
+  background-image: url('../../public/Images/bn.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 6.25em 0;
+  margin-bottom: 3.75rem;
+ color: #fff;
+}
 
 
   

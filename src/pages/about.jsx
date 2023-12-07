@@ -31,7 +31,7 @@ const about = () => {
           <div className='w-[90vw] relative'>
             <Link href={'https://www.youtube.com/embed/XMcab1MFaLc?si=DtLWGvtz3LCtPFrB'}>
                <div className='w-[100%]'><img src="Images/video.png" alt="logo" /></div>
-               <div className='absolute left-[50%] top-[50%] bg-[#fff] rounded-[50%] px-6 py-5 btn'>
+               <div className='absolute left-[50%] top-[50%] bg-[#fff] rounded-[50%] px-6 py-5 bton'>
                  <i class="fa-solid fa-play fa-xl text-[#88c76a]"></i>
                </div>
             </Link>

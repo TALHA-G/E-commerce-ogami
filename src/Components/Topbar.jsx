@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Topbar = () => {
   return (
     <>
-    <div className='bg-[#e6e3e3] p-3 flex justify-around'>
+    <div className='bg-[#e6e3e3] p-1 flex justify-around'>
         <div className='flex gap-6'>
                <div className='text-lg flex gap-2 justify-center items-center'>
                 <i className ="fa-solid fa-envelope text-lg "></i>
@@ -26,7 +26,7 @@ const Topbar = () => {
                </div>
 
                <Link  href="/login">
-              <div className='text-sm flex gap-2 px-5 py-2 bg-[#88c76a] rounded-3xl'>
+              <div className='text-sm flex gap-2 px-5 py-1 bg-[#88c76a] rounded-3xl'>
                   <i class="fa-solid fa-user text-lg flex gap-2"></i>
                   <span className='text-lg'>Login</span>
               </div>

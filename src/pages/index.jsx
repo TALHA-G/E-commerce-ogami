@@ -15,7 +15,7 @@ const index = () => {
  ]
 
   return (
-     <>
+  <>
       <div className='bg flex justify-center gap-8 items-center'>
        <div className='leading-normal'>
         <span className='text-xl text-[#88c74a]'>Butter & Eggs</span>
@@ -112,7 +112,7 @@ const index = () => {
         
 
         <div>
-          <h2 className='text-5xl text-black text-center font-bold'>Deal of the week</h2>
+          <h2 className='text-5xl text-black text-center font-bold'>Featured Products</h2>
           
           <ul className='flex justify-center gap-7 items-center text-xl font-semibold text-black p-8'>
             <li>All</li>
@@ -158,8 +158,8 @@ const index = () => {
         </div>
        </div>
 
-      <div className='py-16'>
-        <h2 className='text-5xl text-black text-center font-bold mb-20'>Day of the week</h2>
+      <div className='py-16 day'>
+        <h2 className='text-5xl text-center font-bold mb-20'>Deal of the week</h2>
         <div className='flex justify-center px-20 gap-6 items-center'>
 
             
@@ -167,7 +167,7 @@ const index = () => {
             <div className='flex justify-center items-center gap-2'>
               <div className='text-lg flex flex-col justify-end items-end'>
                  <h2 className='font-bold pr-4'>Eat Healthier</h2>
-                 <p className='text-[#777676]'>Modi tempora incidunt ut labore dolore magnam aliquam</p>
+                 <p className='text-[#f79823]'>Modi tempora incidunt ut labore dolore magnam aliquam</p>
               </div>
 
               <div className='text-center border rounded-[50%] bg-gray-300 p-3'><img src="Images/deal1.png" alt="" /></div>
@@ -176,7 +176,7 @@ const index = () => {
             <div className='flex justify-center items-center gap-2'>
                <div className='text-lg flex flex-col justify-end items-end'>
                  <h2 className='font-bold pr-4'>We Have Brands</h2>
-                 <p className='text-[#777676]'>Modi tempora incidunt ut labore dolore magnam aliquam</p>
+                 <p className='text-[#f79823]'>Modi tempora incidunt ut labore dolore magnam aliquam</p>
               </div>
 
               <div className='text-center border rounded-[50%] bg-gray-300 p-3'><img src="Images/deal0.png" alt="" /></div>
@@ -195,7 +195,7 @@ const index = () => {
 
               <div className='text-lg'>
                  <h2 className='font-bold'>Fresh And Clean Products</h2>
-                 <p className='text-[#777676]'>Modi tempora incidunt ut labore dolore magnam aliquam</p>
+                 <p className='text-[#f79823]'>Modi tempora incidunt ut labore dolore magnam aliquam</p>
               </div>
             </div>
 
@@ -204,34 +204,34 @@ const index = () => {
 
                <div className='text-lg'>
                  <h2 className='font-bold'>Modern Process</h2>
-                 <p className='text-[#777676]'>Modi tempora incidunt ut labore dolore magnam aliquam</p>
+                 <p className='text-[#f79823]'>Modi tempora incidunt ut labore dolore magnam aliquam</p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-       
 
-      <div className='flex justify-center items-center gap-3 p-10'>
-        <div className='border-2 rounded-[10px] py-1 px-2 text-center'>
-          <h2 className='text-3xl font-bold text-[#88c76a]'>01</h2>
-          <span className='text-lg text-gray-400'>days</span>
-        </div>
-        <div className='border-2 rounded-[10px] py-1 px-2 text-center'>
-          <h2 className='text-3xl font-bold text-[#88c76a]'>02</h2>
-          <span className='text-lg text-gray-400'>hrs</span>
-        </div>
-        <div className='border-2 rounded-[10px] py-1 px-2 text-center'>
-          <h2 className='text-3xl font-bold text-[#88c76a]'>08</h2>
-          <span className='text-lg text-gray-400'>mins</span>
-        </div>
-        <div className='border-2 rounded-[10px] py-1 px-2 text-center'>
-          <h2 className='text-3xl font-bold text-[#88c76a]'>36</h2>
-          <span className='text-lg text-gray-400'>secs</span>
-        </div>
+        <div className='flex justify-center items-center gap-3 p-10'>
+            <div className='border-2 rounded-[10px] py-1 px-2 text-center'>
+              <h2 className='text-3xl font-bold text-[#fff]'>01</h2>
+              <span className='text-lg text-[#f79823]'>days</span>
+            </div>
+            <div className='border-2 rounded-[10px] py-1 px-2 text-center'>
+              <h2 className='text-3xl font-bold text-[#fff]'>02</h2>
+              <span className='text-lg text-[#f79823]'>hrs</span>
+            </div>
+            <div className='border-2 rounded-[10px] py-1 px-2 text-center'>
+              <h2 className='text-3xl font-bold text-[#fff]'>08</h2>
+              <span className='text-lg text-[#f79823]'>mins</span>
+            </div>
+            <div className='border-2 rounded-[10px] py-1 px-2 text-center'>
+              <h2 className='text-3xl font-bold text-[#fff]'>36</h2>
+              <span className='text-lg text-[#f79823]'>secs</span>
+            </div>
+         </div>
+
       </div>
-       
-       <div className='flex justify-center my-8'>
+
+      <div className='flex justify-center my-8'>
           <div className='bg-gray-200 flex justify-around items-center w-[80%] p-10'>
              <img src="Images\lg.png" alt="" />
              <img src="Images\lg0.png" alt="" />
@@ -240,10 +240,10 @@ const index = () => {
              <img src="Images\lg0.png" alt="" />
              <img src="Images\lg1.png" alt="" />
           </div>
-       </div>
+      </div>
              
         
-     </>
+  </>
   )
 }
 
