@@ -85,25 +85,25 @@ const index = () => {
 
     <div className='flex justify-center gap-5 items-centers m-10'>
       <div className='border-2 border-[#88c74a] text-center px-20 py-14'>
-        <img className='hover:animate-bounce w-[110px] mb-6' src="Images/2.png" alt="" />
+        <img className='hover:animate-bounce w-[110px] mb-6 cursor-pointer' src="Images/2.png" alt="" />
         <h2 className='text-2xl font-bold'>Fresh fruits</h2>
         <span className='text-[#88c74a]'>12 items</span>
       </div>
 
       <div className='border-2 border-[#88c74a] text-center px-20 py-14'>
-        <img className='hover:animate-bounce w-[150px] mb-6' src="Images/3.png" alt="" />
+        <img className='hover:animate-bounce w-[150px] mb-6 cursor-pointer' src="Images/3.png" alt="" />
         <h2 className='text-2xl font-bold'>Dried</h2>
         <span className='text-[#88c74a]'>8 items</span>
       </div>
 
       <div className='border-2 border-[#88c74a] text-center px-20 py-14'>
-        <img className='hover:animate-bounce w-[180px] mb-10' src="Images/14.png" alt="" />
+        <img className='hover:animate-bounce w-[180px] mb-10 cursor-pointer' src="Images/14.png" alt="" />
           <h2 className='text-2xl font-bold'>Vegetables</h2>
         <span className='text-[#88c74a]'>2 items</span>
       </div>
 
       <div className='border-2 border-[#88c74a] text-center px-20 py-14 leading-normal'>
-        <img className='hover:animate-bounce w-[120px] mb-6' src="Images/5.png" alt="" />
+        <img className='hover:animate-bounce w-[120px] mb-6 cursor-pointer' src="Images/5.png" alt="" />
           <h2 className='text-2xl font-bold'>Jucies</h2>
         <span className='text-[#88c74a]'>10 items</span>
       </div>
@@ -115,7 +115,7 @@ const index = () => {
           <h2 className='text-5xl text-black text-center font-bold'>Featured Products</h2>
           
           <ul className='flex justify-center gap-7 items-center text-xl font-semibold text-black p-8'>
-            <li>All</li>
+            <li className='active'>All</li>
             <li>Bread</li>
             <li>Fast Foods</li>
             <li>Fresh Meat</li>

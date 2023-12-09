@@ -85,7 +85,7 @@ const shop = () => {
                   return (
                       <>
                         <ul>
-                          <li onClick={() => showCards(index)} >{v.title}</li>
+                          <li className={`${click === index ?'active':''}`} onClick={() => showCards(index)} >{v.title}</li>
                         </ul>
                       </>
                   )
