@@ -43,8 +43,8 @@ const Navbar = () => {
                         <ul>
                           <li className='hvr'><Link href={'/login'}>Login</Link></li>
                           <li className='hvr'><Link href={'/register'}>Register</Link></li>
-                          <li className='hvr'><Link href={'/'}>FAQ's</Link></li>
-                          <li className='hvr'><Link href={'/'}>Contact Us</Link></li>
+                          <li className='hvr'><Link href={'/faq'}>FAQ's</Link></li>
+                          <li className='hvr'><Link href={'/contact'}>Contact Us</Link></li>
                         </ul>
                       </div>
                 </div>

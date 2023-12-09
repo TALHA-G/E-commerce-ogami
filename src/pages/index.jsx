@@ -16,14 +16,18 @@ const index = () => {
 
   return (
   <>
-      <div className='bg flex justify-center gap-8 items-center'>
+    <div className='bg flex justify-center gap-20 items-center'>
        <div className='leading-normal'>
         <span className='text-xl text-[#88c74a]'>Butter & Eggs</span>
         <h2 className='text-[58px] text-black font-bold'>Spice 100% Organic</h2>
         <h3 className='text-3xl font-bold text-[#88c74a] mt-2'>$16.00 <span className='text-lg text-black'>/package</span></h3>
-        <button className='bg-[#88c74a] rounded-[25px] px-9 py-2 mt-10 text-[#fff] text-lg'>Shop now</button>
+        <Link href={'/shop'}><button className='bg-[#88c74a] rounded-[25px] px-9 py-2 mt-10 text-[#fff] text-lg'>Shop now</button></Link>
        </div>
-       <div>
+
+       <div data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
         <img src="Images/1.png" alt="" />
        </div>
     </div>
@@ -48,9 +52,23 @@ const index = () => {
         </div>
       </div>
     </div>
+
+    <div className='bg1 flex justify-center gap-20 items-center'>
+           <div data-aos="fade-up" data-aos-duration="3000" className='bg2 leading-normal flex flex-col justify-evenly w-[40vw] px-8 py-16 shadow-2xl rounded-3xl'>
+               <h2 className='text-[58px] text-black font-bold'>Welcome To Ogami</h2>
+               <span className='text-xl mt-12'>But because there are never times when, through hard work and pain, he seeks something great from</span>
+               <img className='w-44 mt-12' src="Images/signature.png" alt="" />
+               <h3 className='text-2xl font-bold mt-2'>Lettie Chavez</h3>
+               <span className='text-base text-[#f79823]'>Leader</span>
+           </div>
+           <div>
+             <img src="Images/a1.png" alt="" />
+           </div>
+      </div>
+
      <div className='del-time p-10 h-[80vh]'>
          <div className='text-5xl text-[#fff] text-center font-bold'>
-           <h2>Delivery Process</h2>
+           <h2 data-aos="fade-up">Delivery Process</h2>
            <span className='block m-auto w-[80px] h-1 mt-6 bg-[#f79823]'></span>
          </div>
          <div className='flex justify-center items-center gap-20 mt-28 relative'>

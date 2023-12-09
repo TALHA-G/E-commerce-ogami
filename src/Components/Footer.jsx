@@ -7,9 +7,9 @@ const Footer = () => {
     <div className='flex justify-evenly items-center leading-[40px] p-4'>
         <div className='text center'>
            <img className='w-36 p-4 mb-6' src="Images/mlogo.png" alt="logo" />
-           <p className='text-md text-gray-500 font-bold'>Address: 60-49 Road 11378 New York</p>
-           <p className='text-md text-gray-500 font-bold'>Phone: +65 11.188.888</p>
-           <p className='text-md text-gray-500 font-bold'>Email: info.deercreative@gmail.com</p>
+           <p className='text-md text-gray-500 font-bold'>Address:&nbsp; 60-49 Road 11378 New York</p>
+           <p className='text-md text-gray-500 font-bold'>Phone:&nbsp; +65 11.188.888</p>
+           <p className='text-md text-gray-500 font-bold'>Email:&nbsp; info.deercreative@gmail.com</p>
            <div >
                  <ul className='flex gap-5 p-4'>
                     <i class="fa-brands fa-facebook-f text-xl border bg-gray-300 rounded-[50%] py-2 px-4"></i>
@@ -21,26 +21,26 @@ const Footer = () => {
         </div>
         <div className='flex flex-col gap-4'>
             <h2 className='text-2xl font-bold'>Information</h2>
-            <Link href={'#'}><h3 className='text-lg text-gray-500 hover:text-[#88c76a] font-bold'>About us</h3></Link>
+            <Link href={'/about'}><h3 className='text-lg text-gray-500 hover:text-[#88c76a] font-bold'>About us</h3></Link>
             <Link href={'#'}><h3 className='text-lg  text-gray-500 hover:text-[#88c76a] font-bold'>Check out</h3></Link>
-            <Link href={'#'}><h3 className='text-lg hover:text-[#88c76a]  text-gray-500 font-bold'>Contact</h3></Link>
-            <Link href={'#'}><h3 className='text-gray-500 text-lg hover:text-[#88c76a] font-bold'>Services</h3></Link>
+            <Link href={'/contact'}><h3 className='text-lg hover:text-[#88c76a]  text-gray-500 font-bold'>Contact</h3></Link>
+            <Link href={'/about'}><h3 className='text-gray-500 text-lg hover:text-[#88c76a] font-bold'>Services</h3></Link>
         </div>
 
         <div className='flex flex-col gap-4'>
             <h2 className='text-2xl font-bold'>My Account</h2>
             <Link href={'#'}><h3 className='text-gray-500 text-lg hover:text-[#88c76a] font-bold'>My account</h3></Link>
-            <Link href={'#'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>Contact</h3></Link>
+            <Link href={'/contact'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>Contact</h3></Link>
             <Link href={'#'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>Shop Cart</h3></Link>
             <Link href={'#'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>Tracking Order</h3></Link>
         </div>
 
         <div className='flex flex-col gap-4'>
             <h2 className='text-2xl font-bold'>Quick Shop</h2>
-            <Link href={'#'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>About us</h3></Link>
+            <Link href={'/about'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>About us</h3></Link>
             <Link href={'#'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>Check out</h3></Link>
-            <Link href={'#'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>Contact</h3></Link>
-            <Link href={'#'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>Services</h3></Link>
+            <Link href={'/contact'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>Contact</h3></Link>
+            <Link href={'/shop'}><h3 className='text-lg hover:text-[#88c76a] font-bold text-gray-500'>Services</h3></Link>
         </div>
     </div>
 

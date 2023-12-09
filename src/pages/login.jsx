@@ -33,6 +33,13 @@ const Login = () => {
   
   return(
     <>
+       <div className='flex justify-start mb-5 px-52 gap-2 items-center text-base text-gray-400 font-medium'>
+        <i class="fa-solid fa-house-chimney"></i>
+        <h2>Home</h2>
+        <i class="fa-solid fa-angle-right fa-sm pt-1"></i>
+        <h2 className='active'>Login</h2>
+      </div>
+
        <div className='h-[90vh] flex justify-center'>
             <form action="/" onSubmit={enter}  className='border shadow-2xl w-[50vw] h-[85vh] flex flex-col justify-evenly items-center'>
 
