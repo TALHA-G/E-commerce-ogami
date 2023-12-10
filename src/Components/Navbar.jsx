@@ -39,7 +39,7 @@ const Navbar = () => {
             }
                 <div className='hov w-[4.5vw] relative left-[-15rem]'>
                       <i class="fa-solid fa-chevron-down float-right pt-2 text-[#fff] text-sm"></i>
-                      <div className='text-center leading-[2.5rem] drop'>
+                      <div className='text-center leading-[2.5rem] drop z-50'>
                         <ul>
                           <li className='hvr'><Link href={'/login'}>Login</Link></li>
                           <li className='hvr'><Link href={'/register'}>Register</Link></li>

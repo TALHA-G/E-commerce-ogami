@@ -18,7 +18,7 @@ const about = () => {
       <div className='px-52 py-2 h-[270vh] w-[100%]'>
 
         <div className='w-[100%] h-auto'>
-            <h2 className='text-4xl font-bold text-black'>The Story About Us <span className='line'></span><hr /></h2>
+            <h2 className='text-4xl font-bold text-black animate__animated animate__shakeX'>The Story About Us <span className='line'></span><hr /></h2>
         </div>
 
       <div className='flex justify-evenly gap-16 py-4'>

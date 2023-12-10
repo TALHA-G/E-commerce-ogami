@@ -4,20 +4,20 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-    <div className='flex justify-evenly items-center leading-[40px] p-4'>
+    <div className='flex justify-evenly items-center leading-[40px] px-4 py-8 bg-slate-200'>
         <div className='text center'>
            <img className='w-36 p-4 mb-6' src="Images/mlogo.png" alt="logo" />
            <p className='text-md text-gray-500 font-bold'>Address:&nbsp; 60-49 Road 11378 New York</p>
            <p className='text-md text-gray-500 font-bold'>Phone:&nbsp; +65 11.188.888</p>
            <p className='text-md text-gray-500 font-bold'>Email:&nbsp; info.deercreative@gmail.com</p>
            <div >
-                 <ul className='flex gap-5 p-4'>
+                <ul className='flex gap-5 p-4'>
                     <i class="fa-brands fa-facebook-f text-xl border bg-gray-300 rounded-[50%] py-2 px-4"></i>
                     <i class="fa-brands fa-twitter text-xl border bg-gray-300 rounded-[50%] py-2 px-3"></i>
-                    <i class="fa-brands fa-linkedin fa-shake text-xl border bg-gray-300 rounded-[50%] py-2 px-4"></i>
+                    <i class="fa-brands fa-linkedin text-xl border bg-gray-300 rounded-[50%] py-2 px-3.5"></i>
                     <i class="fa-brands fa-pinterest-p text-xl border bg-gray-300 rounded-[50%] py-2 px-4"></i>
-                 </ul>
-              </div>
+                </ul>
+            </div>
         </div>
         <div className='flex flex-col gap-4'>
             <h2 className='text-2xl font-bold'>Information</h2>
@@ -49,9 +49,9 @@ const Footer = () => {
             <h2 className='text-2xl'>Join Our Newsletter Now</h2>
             <p className='text-md'>Get E-mail updates about our latest shop and special offers.</p>
         </div>
-        <div className='w-[35vw] h-[8vh] flex justify-between'>
+        <div className='w-[35vw] h-[8vh] flex justify-between relative'>
          <input type="email" placeholder="Enter your email" className='w-[100%] text-md font-medium rounded-[30px] px-8 placeholder-[#fff] border-hidden bg-[#a5d470]'/>
-         <button className='relative left-[-21%] font-semibold rounded-e-[30px] text-[#88c76a] text-lg bg-[#fff] px-5'>Subscribe</button>
+         <button className='absolute right-0 font-semibold rounded-e-[30px] text-[#88c76a] text-lg bg-[#fff] px-5 py-4'>Subscribe</button>
         </div>
     </div>
     <div className='flex justify-around p-4'>

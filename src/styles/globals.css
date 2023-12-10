@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
 
 .bg{
   width: 100%;

@@ -7,7 +7,7 @@ const Topbar = () => {
     <>
     <div className='bg-[#e6e3e3] p-1 flex justify-around'>
         <div className='flex gap-6'>
-               <div className='text-lg flex gap-2 justify-center items-center'>
+               <div className='text-lg flex gap-2 justify-center items-center animate__animated animate__jello'>
                 <i className ="fa-solid fa-envelope text-lg "></i>
                 info.deercreative@gmail.com</div>
             

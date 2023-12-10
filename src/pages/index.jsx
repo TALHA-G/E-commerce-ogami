@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
+
 const index = () => {
 
  var cards=[
@@ -10,24 +11,22 @@ const index = () => {
    {img:'Images/9.png',title:'Vegetables',head:'Bananas',pri:'$15.00'},
    {img:'Images/4.png',title:'Fruits',head:'India Strawberry',pri:'$17.00'},
    {img:'Images/11.png',title:'Fruits',head:'Fresh Orange',pri:'$6.99'},
-     {img:'Images/6.png',title:'Fruits',head:'American Grape',pri:'$15.00'},
-     {img:'Images/13.png',title:'Fruits',head:'Grouped product',pri:'$26.00'},
+   {img:'Images/6.png',title:'Fruits',head:'American Grape',pri:'$15.00'},
+   {img:'Images/13.png',title:'Fruits',head:'Grouped product',pri:'$26.00'},
  ]
 
   return (
   <>
     <div className='bg flex justify-center gap-20 items-center'>
+      {/* <input type="number" name="" id="" min="0" max="5" /> */}
        <div className='leading-normal'>
         <span className='text-xl text-[#88c74a]'>Butter & Eggs</span>
-        <h2 className='text-[58px] text-black font-bold'>Spice 100% Organic</h2>
+        <h2 className='text-[58px] text-black font-bold animate__animated animate__zoomInDown'>Spice 100% Organic</h2>
         <h3 className='text-3xl font-bold text-[#88c74a] mt-2'>$16.00 <span className='text-lg text-black'>/package</span></h3>
-        <Link href={'/shop'}><button className='bg-[#88c74a] rounded-[25px] px-9 py-2 mt-10 text-[#fff] text-lg'>Shop now</button></Link>
+        <Link href={'/shop'}><button className='animate__animated animate__fadeInUp animate__delay-1s bg-[#88c74a] rounded-[25px] px-9 py-2 mt-10 text-[#fff] text-lg'>Shop now</button></Link>
        </div>
 
-       <div data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500">
+       <div className='animate__zoomInRight animate__animated animate__delay-1s'>
         <img src="Images/1.png" alt="" />
        </div>
     </div>
@@ -54,7 +53,7 @@ const index = () => {
     </div>
 
     <div className='bg1 flex justify-center gap-20 items-center'>
-           <div data-aos="fade-up" data-aos-duration="3000" className='bg2 leading-normal flex flex-col justify-evenly w-[40vw] px-8 py-16 shadow-2xl rounded-3xl'>
+           <div className='animate__animated animate__flipInY animate__delay-3s bg2 leading-normal flex flex-col justify-evenly w-[40vw] px-8 py-16 shadow-2xl rounded-3xl'>
                <h2 className='text-[58px] text-black font-bold'>Welcome To Ogami</h2>
                <span className='text-xl mt-12'>But because there are never times when, through hard work and pain, he seeks something great from</span>
                <img className='w-44 mt-12' src="Images/signature.png" alt="" />
@@ -130,7 +129,7 @@ const index = () => {
         
 
         <div>
-          <h2 className='text-5xl text-black text-center font-bold'>Featured Products</h2>
+          <h2 data-aos="fade-up" data-aos-duration='3000' className='text-5xl text-black text-center font-bold'>Featured Products</h2>
           
           <ul className='flex justify-center gap-7 items-center text-xl font-semibold text-black p-8'>
             <li className='active'>All</li>
@@ -203,7 +202,7 @@ const index = () => {
 
              
 
-          <div>
+          <div className='animate__animated animate__zoomInUp'>
             <img src="Images/img.png" alt="" />
           </div>
 
